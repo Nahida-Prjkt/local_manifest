@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="Tsaritsa-Prjkt" fetch="https://github.com/Tsaritsa-Prjkt" />
+    <remote name="Nahida-Prjkt" fetch="https://github.com/Nahida-Prjkt" />
+
+    <!-- Device -->
+    <project path="device/google/sunfish" name="android_device_google_sunfish" remote="Nahida-Prjkt" revision="lineage-24.0" />
+    <project path="device/google/gs-common" name="android_device_google_gs-common" remote="Nahida-Prjkt" revision="lineage-23.2" />
+
+    <!-- Vendor -->
+    <project path="vendor/google/sunfish" name="android_vendor_google_sunfish" remote="Nahida-Prjkt" revision="lineage-24.0" />
+
+    <!-- Kernel -->
+    <project path="kernel/google/msm-4.14" name="android_kernel_google_msm-4.14" remote="Nahida-Prjkt" revision="lineage-24.0" />
+
+    <!-- Dolby -->
+    <project path="vendor/lunaris/dolby" name="vendor_lunaris_dolby" remote="Nahida-Prjkt" revision="main" />
+
+    <!-- Key -->
+    <project path="vendor/lineage-priv/keys" name="android_vendor_lineage-priv_keys" remote="Tsaritsa-Prjkt" revision="lineage-24.0" />
+</manifest>
